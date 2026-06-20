@@ -1,14 +1,13 @@
 base_url = "https://duckquill.daudix.one"
 description = "Opinionated, modern, pretty, and clean Zola theme."
-
 title = "Vasileios"
 theme = "duckquill"
 
 compile_sass = true
 build_search_index = true
 
-[markdown]
-highlight_code = true
+
+
 
 compile_sass = true
 minify_html = true
@@ -36,6 +35,7 @@ taxonomies = [{ name = "tags", feed = true }]
 smart_punctuation = true
 bottom_footnotes = true
 github_alerts = true
+highlight_code = true
 
 [markdown.highlighting]
 light_theme = "solarized-light"
