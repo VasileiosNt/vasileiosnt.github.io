@@ -30,7 +30,6 @@ taxonomies = [{ name = "tags", feed = true }]
 smart_punctuation = true
 bottom_footnotes = true
 github_alerts = true
-highlight_code = true
 
 [markdown.highlighting]
 light_theme = "solarized-light"
