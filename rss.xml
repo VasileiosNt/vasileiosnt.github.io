@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Vasileios</title>
+      <link>https://vasileiosnt.github.io</link>
+      <description>Personal blog of Vasileios Ntousis.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://vasileiosnt.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Hello, World</title>
+          <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+          <author>Vasileios Ntousis</author>
+          <link>https://vasileiosnt.github.io/blog/hello-world/</link>
+          <guid>https://vasileiosnt.github.io/blog/hello-world/</guid>
+          <description xml:base="https://vasileiosnt.github.io/blog/hello-world/">&lt;p&gt;This is the first post on my new blog, built with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;
+and the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&#x2F;daudix&#x2F;duckquill&quot;&gt;Duckquill&lt;&#x2F;a&gt; theme.&lt;&#x2F;p&gt;
+&lt;p&gt;To add a new post, create a folder under &lt;code&gt;content&#x2F;blog&#x2F;&lt;&#x2F;code&gt; and put an &lt;code&gt;index.md&lt;&#x2F;code&gt;
+inside it with front matter like the block at the top of this file. More to come!&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

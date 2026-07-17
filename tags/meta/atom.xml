@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Vasileios - meta</title>
+    <subtitle>Personal blog of Vasileios Ntousis.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://vasileiosnt.github.io/tags/meta/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://vasileiosnt.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-20T00:00:00+00:00</updated>
+    <id>https://vasileiosnt.github.io/tags/meta/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Hello, World</title>
+        <published>2026-06-20T00:00:00+00:00</published>
+        <updated>2026-06-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Vasileios Ntousis
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://vasileiosnt.github.io/blog/hello-world/"/>
+        <id>https://vasileiosnt.github.io/blog/hello-world/</id>
+        
+        <content type="html" xml:base="https://vasileiosnt.github.io/blog/hello-world/">&lt;p&gt;This is the first post on my new blog, built with &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;
+and the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;codeberg.org&#x2F;daudix&#x2F;duckquill&quot;&gt;Duckquill&lt;&#x2F;a&gt; theme.&lt;&#x2F;p&gt;
+&lt;p&gt;To add a new post, create a folder under &lt;code&gt;content&#x2F;blog&#x2F;&lt;&#x2F;code&gt; and put an &lt;code&gt;index.md&lt;&#x2F;code&gt;
+inside it with front matter like the block at the top of this file. More to come!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
