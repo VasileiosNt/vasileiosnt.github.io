@@ -1,0 +1,58 @@
+// Custom overrides for the "Minimal Warm" style.
+// Keeps Duckquill's existing layout/shadows/rounded corners,
+// swaps in a warm, editorial-inspired palette and a serif heading font
+// (inspired by https://yannickhofmeister.com/).
+//
+// See https://duckquill.daudix.one/#custom-styles for how this is loaded.
+
+@font-face {
+	font-family: "Newsreader";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("fonts/Newsreader-600.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Newsreader";
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url("fonts/Newsreader-600-Italic.woff2") format("woff2");
+}
+
+:root {
+	// Warm cream background instead of the accent-tinted white.
+	--bg-color: #f4f1eb;
+}
+
+[data-theme="dark"] {
+	// Warm near-black background instead of the accent-tinted black.
+	--bg-color: #1c1b18;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--bg-color: #1c1b18;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+	font-family: "Newsreader", var(--font-antique);
+	letter-spacing: -0.02em;
+}
+
+#article-list article h3 {
+	font-family: "Newsreader", var(--font-antique);
+}
+
+blockquote {
+	font-family: "Newsreader", var(--font-antique);
+	font-style: italic;
+}

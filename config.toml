@@ -46,10 +46,10 @@ index_format = "fuse_json"
 #
 # Sets theme and browser theme color.
 # See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
-accent_color = "#ff7800"
+accent_color = "#3f4f40"
 # Ditto but for the dark theme.
 # If not set regular variant will be used.
-accent_color_dark = "#ffa348"
+accent_color_dark = "#7ca17d"
 # Whether to use fonts bundled with Duckquill instead of system ones.
 # Keep in mind that it also changes the style of headings.
 #
@@ -67,10 +67,9 @@ source_url = "https://github.com/VasileiosNt/vasileiosnt.github.io"
 # Additional CSS styles; expects them to be in the "./static/" directory.
 # If you are using Sass it will be generated there automatically.
 #
-# styles = [
-#   "YOUR_STYLE.css",
-#   "ALSO_YOUR_STYLE.css"
-# ]
+styles = [
+  "custom.css"
+]
 #
 # Additional JavaScript scripts; expects them to be in the "./static/" directory.
 #
